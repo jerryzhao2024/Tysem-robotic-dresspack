@@ -16,9 +16,3 @@ permalink: /articles/
 
 ---
 
-### 分类
-
-- 🏭 [行业调查](/articles/tags/#行业调查)
-- 🔧 [选型指南](/articles/tags/#选型指南)
-- 📊 [案例复盘](/articles/tags/#案例复盘)
-- 💡 [解决方案](/articles/tags/#解决方案)
