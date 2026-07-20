@@ -10,9 +10,6 @@ permalink: /articles/
 {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% if year == "2026" %}
 #### [{{ post.title }}]({{ post.url | relative_url }})
-*{{ post.date | date: "%Y-%m-%d" }}* — {{ post.excerpt | strip_html | truncate: 120 }}
+*{{ post.date | date: "%Y-%m-%d" }}*
 {% endif %}
 {% endfor %}
-
----
-
