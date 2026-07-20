@@ -1,0 +1,11 @@
+---
+---
+
+/* Custom styles for TYSEM blog */
+.site-header { border-top: 5px solid #1a5276; }
+.site-title { font-weight: 700; }
+.post-meta { color: #666; font-size: 0.9em; }
+table { font-size: 0.9em; }
+table th { background: #1a5276; color: #fff; }
+blockquote { border-left: 4px solid #1a5276; background: #f8f9fa; padding: 10px 15px; }
+.footer-col-wrapper { font-size: 0.85em; }

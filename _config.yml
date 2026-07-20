@@ -1,0 +1,29 @@
+title: "研宏机器人技术博客"
+tagline: "机器人管线包·线束·国产替代"
+description: "湖北研宏机器人技术有限公司官方技术博客。分享机器人管线包选型指南、国产替代方案、行业调查报告。"
+url: "https://tysem-blog.github.io"
+baseurl: ""
+
+theme: minima
+
+author:
+  name: "研宏机器人技术团队"
+  email: ""
+
+markdown: kramdown
+
+permalink: /articles/:year/:month/:day/:title/
+
+header_pages:
+  - articles/index.md
+  - about.md
+
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - .gitignore
+  - README.md
