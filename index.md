@@ -12,7 +12,7 @@ title: "研宏机器人技术博客"
 ### 最新文章
 
 {% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url }}) — *{{ post.date | date: "%Y-%m-%d" }}*
+- [{{ post.title }}]({{ post.url | relative_url }}) — *{{ post.date | date: "%Y-%m-%d" }}*
 {% endfor %}
 
 ---
